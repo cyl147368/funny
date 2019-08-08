@@ -1,0 +1,7 @@
+.pitlishi {
+  margin-top: 100rpx;
+    padding: 14px;
+    font-size: 14px;
+    font-family:"黑体-简";
+    color: #222;
+}

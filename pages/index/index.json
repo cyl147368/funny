@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "funnyReply": "/pages/funnyReply/funnyReply",
+    "joke": "/pages/joke/joke",
+    "beautyPic": "/pages/beautyPic/beautyPic",
+    "about": "/pages/about/about"
+    }
+}

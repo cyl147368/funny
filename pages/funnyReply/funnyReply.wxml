@@ -1,0 +1,12 @@
+<image src='/imgs/shf_bg.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+<scroll-view scroll-y class="scrollPage">
+<view class="godreply">
+<view  class="title">{{title}}</view>
+<view class="content">{{content}}</view>
+</view>
+<view class="flex padding justify-around">
+    <button bindtap="Tianapi" class="cu-btn bg-green round lg shadow">再来一个</button>
+    <button class="cu-btn bg-red round lg shadow" open-type="share">转发分享</button>
+</view>
+<view class="cu-tabbar-height"></view>
+</scroll-view>

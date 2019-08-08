@@ -1,0 +1,10 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}"><view slot="content">美女图片</view></cu-custom>
+<scroll-view scroll-y class="scrollPage" bindscrolltolower="onReachBottom" bindscrolltoupper="onPullDownRefresh">  
+  <view class= "card" wx:for = "{{items}}" wx:key>
+    <view data-url="{{item.url}}" bindtap = "onItemClick">
+       <image class= "image" src="{{item.url}}"/>
+       <view class="title">{{item.title}}</view>
+    </view>
+  </view>
+</scroll-view>
+

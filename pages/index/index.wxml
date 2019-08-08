@@ -1,0 +1,38 @@
+<funnyReply wx:if="{{PageCur=='funnyReply'}}"></funnyReply>
+<beautyPic wx:if="{{PageCur=='beautyPic'}}"></beautyPic>
+<joke wx:if="{{PageCur=='joke'}}"></joke>
+<about wx:if="{{PageCur=='about'}}"></about>
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="funnyReply">
+    <view class='cuIcon-cu-image'>
+      <image src="/imgs/shf{{PageCur=='funnyReply'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='funnyReply'?'text-red':'text-gray'}}">神回复
+  </view>
+  </view>
+  <!-- <view class="action" bindtap="NavChange" data-cur="joke">
+    <view class='cuIcon-cu-image'>
+      <image src="/imgs/joke{{PageCur=='joke'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='joke'?'text-blue':'text-gray'}}">雷人笑话
+  </view>
+  </view> -->
+  <!-- <view class="action text-gray add-action">
+    <button class="cu-btn cuIcon-add bg-green shadow"></button>
+    分享
+  </view> -->
+  <view class="action" bindtap="NavChange" data-cur="joke">
+    <view class='cuIcon-cu-image'>
+      <image src="/imgs/joke{{PageCur=='joke'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='joke'?'text-blue':'text-gray'}}">雷人笑话
+  </view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="about">
+    <view class='cuIcon-cu-image'>
+      <image src="/imgs/about{{PageCur=='about'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='about'?'text-yellow':'text-gray'}}">关于
+  </view>
+  </view>
+</view>

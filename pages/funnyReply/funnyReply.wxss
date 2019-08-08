@@ -1,0 +1,40 @@
+page{
+background: rgb(252, 251, 251);
+    font-size: 16px;
+}
+.godreply {
+    padding: 14px;
+    font-family:"黑体-简";
+    color: #222;
+}
+.godreply .title{
+     font-size: 18px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #10a6e2;
+   padding: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.godreply .content{
+    background: #fff;
+     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 10px #f2f2f2;
+    overflow: hidden;
+    }
+
+/* .row{
+  color: #888;
+  background: #f2f2f2;
+   font-size: 14px;
+} */
+.rand{
+padding: 10px 30px;
+ border-radius: 12px;
+ float:left;
+}
+button::after {
+  border: none;
+}

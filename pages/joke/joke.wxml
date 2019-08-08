@@ -1,0 +1,18 @@
+<image src='/imgs/joke_bg.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+<scroll-view scroll-y class="scrollPage" scroll-top='{{topNum}}'>
+  <view class="solids-bottom padding-xs flex align-center" wx:for = "{{items}}" wx:key="index">
+    <view class="flex-sub text-center">
+      <view class="solid-bottom text-lg padding">
+        <text class="text-black">{{item.title}}</text>
+      </view>
+      <view class="text-left padding"><rich-text nodes="{{item.content}}"></rich-text></view>
+    </view>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
+<view class="view-main">
+  <button bindtap="again" class="cu-btn bg-green round shadow">再来一波</button>
+</view>
+<view class="view-main2">
+  <button open-type="share" class="cu-btn bg-red round shadow">转发分享</button>
+</view>

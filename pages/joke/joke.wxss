@@ -1,0 +1,25 @@
+.data-loading {  
+  height: 100rpx;  
+  line-height: 100rpx;  
+  background-color: #eee;  
+  text-align: center;  
+  font-size: 14px;  
+}
+.view-main{
+  position: fixed;
+  bottom: 285rpx;
+  right: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.view-main2{
+  position: fixed;
+  bottom: 200rpx;
+  right: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

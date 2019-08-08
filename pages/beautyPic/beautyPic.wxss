@@ -1,0 +1,52 @@
+/**index.wxss**/
+.card {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 1px #cccccc;
+    margin: 8px 0;
+    position: relative;
+}
+
+.loadmore {
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 1px #cccccc;
+    margin: 8px;
+}
+
+.image{
+  width:100%;
+  /* height:450px;  */
+}
+
+.title {
+    padding: 14px;
+    font-size: 10px;
+    font-family:"黑体-简";
+    color: #222;
+}
+.tupian{
+  position:fixed;
+  z-index:50;
+box-sizing:border-box;
+width:100%;
+height:80rpx;
+top:0;
+font-size:28rpx;
+line-height:80rpx;
+margin: 0;
+background-color:rgba(0, 0, 0, .3);
+color:#fff;
+opacity:0.80;
+  text-align:center;
+}
+.box {  
+  margin: 20rpx 0; 
+}
+
+.box view.cu-bar {
+  margin-top: 20rpx; 
+}
+
